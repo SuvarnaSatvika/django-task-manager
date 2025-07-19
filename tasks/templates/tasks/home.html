@@ -1,0 +1,10 @@
+{% extends 'tasks/base.html' %}
+{% block content %}
+    <h1>Welcome to Task Manager</h1>
+          <h2 class="hero-title">
+              A Single Place to PLAN, CATEGORIZE and PRIORTIZE Tasks
+          </h2>
+    {% if user.is_authenticated %}
+        <p>Hello, {{ user.username }}! <a href="{% url 'tasks:dashboard' %}">Go to Dashboard</a></p>
+    {% endif %}
+{% endblock %}

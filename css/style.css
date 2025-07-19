@@ -1,0 +1,29 @@
+
+/* tasks/static/css/style.css */
+.navbar-brand {
+    font-family: 'Monofett-Regular', cursive;
+    font-size: 2rem;
+    background: linear-gradient(90deg, #04abb1, #df0cef);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-link {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.2rem;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #04abb1, #df0cef);
+    border: none;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
