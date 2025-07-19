@@ -31,6 +31,7 @@
         <thead>
             <tr>
                 <th>Title</th>
+                <th>Description</th>
                 <th>Category</th>
                 <th>Priority</th>
                 <th>Due Date</th>
@@ -42,6 +43,7 @@
             {% for task in tasks %}
                 <tr>
                     <td>{{ task.title }}</td>
+                    <td>{{ task.description }}</td>
                     <td>{{ task.category|default:"None" }}</td>
                     <td>{{ task.get_priority_display }}</td>
                     <td>{{ task.due_date|default:"None" }}</td>
